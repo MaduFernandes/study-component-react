@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
-import { Grid, Typography } from "@material-ui/core";
-import "./css/index.css";
+import { Grid, Typography } from '@material-ui/core';
+import './css/index.css';
 
-import AccountForm from "./components/Form/AccountForm";
-import ButtonForm from "./components/Buttons/ButtonForm";
-import IconsForm from "./components/Icons/IconsForm";
+import AccountForm from './components/Form/AccountForm';
+import ButtonForm from './components/Buttons/ButtonForm';
+import IconsForm from './components/Icons/IconsForm';
 
 const App = () => {
   return (
@@ -17,9 +17,7 @@ const App = () => {
         <Grid item xs={12}>
           <IconsForm />
         </Grid>
-        <Grid container direction="column" justify="center" alignItems="center">
-          <AccountForm />
-        </Grid>
+        <AccountForm />
         <Grid item xs={12}>
           <ButtonForm />
         </Grid>
