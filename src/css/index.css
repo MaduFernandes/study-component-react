@@ -2,9 +2,9 @@
   /*   flex: 1; */
   display: flex;
   justify-content: center;
+  align-items: center;
   border: 1px solid black;
   border-radius: 5px;
-  padding: 0px 80px;
 }
 
 .content {
@@ -21,30 +21,17 @@
 }
 
 #title {
-  margin-top: 30px;
+  margin: 10%;
   text-align: center;
   color: #364547;
   font-weight: bold;
   font-size: 40px;
-  letter-spacing: -4%;
-}
-
-input {
-  margin: 20px;
-}
-
-#input {
-  display: flex;
-  padding: 18.5px 14px;
-  border-radius: 7px;
-  border: none;
-  outline: none;
 }
 
 #buttons {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
 #btn {
@@ -65,13 +52,6 @@ input {
   font-size: 20px;
 }
 
-.input-class:-moz-placeholder {
-  /* Firefox */
-  color: #000000;
-  font-weight: bold;
-  font-size: 15px;
-}
-
 html {
   height: 100vh;
   background-color: #ffe268;
@@ -81,18 +61,15 @@ html {
   font-family: "Darker Grotesque", sans-serif !important;
 }
 
-.container-form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+@media (max-width: 595px) {
+  #title {
+    font-size: 30px;
+  }
 
-@media (max-width: 430px) {
-  #input {
+  #buttons {
     display: flex;
-    padding: 18.5px 14px;
-    border-radius: 7px;
-    width: 100%;
-    margin-left: -7%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
