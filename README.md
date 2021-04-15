@@ -6,6 +6,7 @@
 
 ## Links
 
+- [Deployed application](https://react-account-component456e0d.netlify.app/)
 - [Figma](https://www.figma.com/file/6rDTOenYb5yrEIKvDplkQ9/Study-React?node-id=0%3A1)
 
 ## Dependency
