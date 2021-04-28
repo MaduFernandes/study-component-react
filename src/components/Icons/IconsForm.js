@@ -19,16 +19,15 @@ const IconsForm = () => {
     <>
       <Grid
         container
-        xs="12"
-        sm="12"
+        item
         className={classes.icon}
         direction="row"
         justify="center"
         alignContent="center"
       >
-        <MdEmail class="icon" />
-        <SiFacebook class="icon" />
-        <FaTwitter class="icon" />
+        <MdEmail className="icon" />
+        <SiFacebook className="icon" />
+        <FaTwitter className="icon" />
       </Grid>
     </>
   );

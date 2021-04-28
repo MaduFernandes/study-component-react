@@ -1,16 +1,15 @@
-import React from 'react';
-import { Grid, FormControl } from '@material-ui/core';
-import { useStyles } from './style';
+import React from "react";
+import { Grid, FormControl } from "@material-ui/core";
+import { useStyles } from "./style";
 
-import '../../css/index.css';
+import "../../css/index.css";
 
 const AccountForm = () => {
   const classes = useStyles();
   return (
     <Grid
       container
-      xs="12"
-      sm="12"
+      item
       className={classes.container}
       direction="column"
       justify="center"
@@ -18,16 +17,14 @@ const AccountForm = () => {
     >
       <FormControl>
         <input
-          class={classes.input}
+          className={classes.input}
           type="email"
           placeholder="Email"
-          autoComplete
         ></input>
         <input
-          class={classes.input}
+          className={classes.input}
           type="password"
           placeholder="Password"
-          autoComplete
         ></input>
       </FormControl>
     </Grid>
