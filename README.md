@@ -35,4 +35,10 @@ Run the application:
 yarn start
 ```
 
+Run all tests:
+
+```sh
+yarn test
+```
+
 Open [localhost:3000](http://localhost:3000) or [192.168.1.9:3000](http://192.168.1.9:3000) to view it in the browser.
